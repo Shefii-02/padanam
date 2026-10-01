@@ -35,3 +35,10 @@ admin/.env.*
 !admin/.env.example
 admin/coverage/
 admin/*.log
+
+# Realtime (Node/Socket.IO server)
+realtime/node_modules/
+realtime/.env
+realtime/.env.*
+!realtime/.env.example
+realtime/*.log
