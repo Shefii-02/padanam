@@ -26,3 +26,12 @@ backend/.phpunit.result.cache
 backend/Homestead.json
 backend/Homestead.yaml
 backend/auth.json
+
+# Admin (Vite/React frontend)
+admin/node_modules/
+admin/dist/
+admin/.env
+admin/.env.*
+!admin/.env.example
+admin/coverage/
+admin/*.log
